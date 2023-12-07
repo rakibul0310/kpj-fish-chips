@@ -13,8 +13,8 @@ const Footer = ({ children }) => (
       passHref
     >
       <div className={styles.footer_copyright}>
-        <p className="opensans">Powered by </p>
-        <span className={styles.footer_logo}>@LumosBytes</span>
+        <p className="opensans">Developed by</p>
+        <span className={styles.footer_logo}>@ LumosBytes</span>
       </div>
     </Link>
   </footer>

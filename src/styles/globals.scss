@@ -53,6 +53,10 @@ body::-webkit-scrollbar-thumb {
   margin-top: 20rem;
 }
 
+.intro_wrap {
+  flex-direction: column;
+}
+
 .slide_bottom {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

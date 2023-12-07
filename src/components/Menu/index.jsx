@@ -323,7 +323,7 @@ const SpacialMenu = () => {
           </div>
         )}
       </div>
-      <Button name="View More" path="#gallery" />
+      <Button name="View More" path="/menu" />
     </div>
   );
 };

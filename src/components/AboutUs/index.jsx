@@ -28,7 +28,7 @@ const AboutUs = () => {
           <LineBreak />
           <p className="opensans">
             {
-              "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Quis Pharetra Adipiscing Ultrices Vulputate Posuere Tristique. In Sed Odio Nec Aliquet Eu Proin Mauris Et."
+              "We are a family run business and have been in the trade for 10+ years and aim to please every customer that walks in. All our food is cooked fresh daily, we cater to all members of different communities. We also accept phone orders so they are ready for you to collect on arrival. We accept credit/ debit cards alongside cash. We are happy to hear any feedback from customers good or bad."
             }
           </p>
           <Button name="Know More" path="#intro" />
@@ -49,7 +49,7 @@ const AboutUs = () => {
           <LineBreak />
           <p className="opensans">
             {
-              "Adipiscing Tempus Ullamcorper Lobortis Odio Tellus Arcu Volutpat. Risus Placerat Morbi Volutpat Habitasse Interdum Mi Aliquam In Sed Odio Nec Aliquet."
+              "Welcome to KPJ's Fish & Chips, a culinary gem with a rich history spanning over a decade. Our story began more than 10 years ago when our family embarked on a journey to create a dining establishment that goes beyond serving food—it's about crafting experiences and building connections with our community. With a commitment to quality and a passion for pleasing every customer, we have evolved into a cherished part of the local culinary landscape."
             }
           </p>
           <Button name="Know More" path="#gallery" />

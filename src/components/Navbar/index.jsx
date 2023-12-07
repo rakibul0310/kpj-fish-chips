@@ -8,6 +8,8 @@ import { MdOutlineRestaurantMenu } from "react-icons/md";
 import images from "../../constants/images";
 
 import styles from "./styles.module.scss";
+import logowhite from "../../assets/logo-white.png";
+import logoblack from "../../assets/logo-black.png";
 const data = ["HOME", "MENU", "ABOUT", "CONTACT"];
 
 const Navbar = () => {
@@ -23,13 +25,15 @@ const Navbar = () => {
     <nav className={styles.navbar_container} id="navigation">
       <Link href="/#home" passHref>
         <div>
-          {/* <Image
-            src={navbarInfo?.metadata?.logo?.imgix_url || images?.gericht}
-            layout="fill"
-            objectFit="cover"
+          <Image
+            src={logoblack}
+            width={120}
+            height={70}
+            // layout="fill"
+            // objectFit="cover"
             alt="logo"
-          /> */}
-          <span className={styles.logo_text}>{"KPJ'S FISH & CHIPS"}</span>
+          />
+          {/* <span className={styles.logo_text}>{"KPJ'S FISH & CHIPS"}</span> */}
         </div>
       </Link>
       <ul className={styles.navbar_links}>
@@ -71,7 +75,10 @@ const Navbar = () => {
             <ul className={styles.navbar_smallscreen_links}>
               {navbarItems?.map((item, index) => (
                 <li onClick={handleToggle} key={index}>
-                  <Link href={`/#${item?.toLowerCase()}`} passHref>
+                  <Link
+                    href={item === "HOME" ? "/" : `/${item?.toLowerCase()}`}
+                    passHref
+                  >
                     <span>{item}</span>
                   </Link>
                 </li>

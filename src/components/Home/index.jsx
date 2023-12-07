@@ -16,7 +16,7 @@ const Home = () => (
         <p className={cn(styles.header_p, "opensans")}>
           {"The New Dining Amazing Just Try It!"}
         </p>
-        <Button name="Explore Menu" path="#menu" />
+        <Button name="Explore Menu" path="/menu" />
       </div>
       <div className="app_wrapper_img">
         <div className={cn(styles.wrapper_img, "img_padding")}>
