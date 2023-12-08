@@ -4,7 +4,7 @@ import cn from "classnames";
 import styles from "./styles.module.scss";
 import SubHeading from "../SubHeading";
 import SocialMedia from "./SocialMedia";
-import footerImage from "../../assets/outlet.jpg";
+import footerImage from "../../assets/dish2.jpg";
 
 const Contacts = () => (
   <div className={cn("app_bg", "app_wrapper", "section_padding")} id="contact">
@@ -13,17 +13,17 @@ const Contacts = () => (
         <SubHeading title={"Contact"} />
         <h1 className="headtext_cormorant">{"Contact US"}</h1>
         <div className={cn(styles.contact_title, "app_wrapper_content")}>
-          <p className="opensans">{"+020 8894 6777"}</p>
+          <p className="opensans">{"+014 8234 3704"}</p>
           <div className="app_wrapper_content">
             <p className="opensans">
-              {"Address: 97 Whitton Road, Hounslow, TW3 2EH, UK"}
+              {"Address: 244 Beverely Road, Hull, HU5 1AH, UK"}
             </p>
           </div>
           <p className={cn(styles.contact_hours, "cormorant")}>
             {"Opening Hours"}
           </p>
           <p className={cn(styles.contact_title, "opensans")}>
-            {"Tue - Sat : 12:00 Pm - 09:30 Pm"}
+            {"Mon - Sat : 11:00 Am - 07:30 Pm"}
           </p>
         </div>
         <h1 className={cn(styles.follow_title, "headtext_cormorant")}>

@@ -62,9 +62,38 @@
 }
 
 .ts_card {
-  background-color: red;
-  width: 100px;
-  height: 50px;
+  font-family: $font-base;
+  font-weight: 400;
+  font-size: 18px;
+  // line-height: 41.6px;
+  // letter-spacing: 1px;
+  // text-transform: capitalize;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  width: 300px;
+  text-align: left;
+  color: white;
+  .rating_con {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    .ratings {
+      color: $color-golden;
+    }
+    span {
+      margin-left: 1rem;
+      color: azure;
+    }
+  }
+  .review {
+    margin-bottom: 1rem;
+  }
+  .reviwer {
+    color: cadetblue;
+  }
 }
 
 @media screen and (max-width: 650px) {
