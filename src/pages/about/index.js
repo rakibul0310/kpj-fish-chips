@@ -42,7 +42,7 @@ const About = () => {
             <LineBreak />
             <p className="opensans">
               {
-                "Welcome to KPJ's Fish & Chips, a culinary gem with a rich history spanning over a decade. Our story began more than 10 years ago when our family embarked on a journey to create a dining establishment that goes beyond serving food—it's about crafting experiences and building connections with our community. With a commitment to quality and a passion for pleasing every customer, we have evolved into a cherished part of the local culinary landscape."
+                "Welcome to R SMITHYS CHIPPY LTD., a culinary gem with a rich history spanning over a decade. Our story began more than 10 years ago when our family embarked on a journey to create a dining establishment that goes beyond serving food—it's about crafting experiences and building connections with our community. With a commitment to quality and a passion for pleasing every customer, we have evolved into a cherished part of the local culinary landscape."
               }
             </p>
             <Button name="Know More" path="#gallery" />
