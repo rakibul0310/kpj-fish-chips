@@ -12,7 +12,7 @@ const Home = () => (
     <div className={cn("app_container", "app_wrapper")}>
       <div className={styles.wrapper_info}>
         <SubHeading title={"Chase The New Flavour"} />
-        <h1 className={styles.header_h1}>{"The Key To Fine Dinig"}</h1>
+        <h1 className={styles.header_h1}>{"The Key To Fine Dining"}</h1>
         <p className={cn(styles.header_p, "opensans")}>
           {"The New Dining Amazing Just Try It!"}
         </p>
